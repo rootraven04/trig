@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.ssss.edu.in/vendor/online-cricket-betting/sitemap.xml
